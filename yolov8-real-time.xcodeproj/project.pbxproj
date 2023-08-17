@@ -13,6 +13,7 @@
 		94C36AA02A8DAC8E00FD40B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C36A9E2A8DAC8E00FD40B4 /* Main.storyboard */; };
 		94C36AA22A8DAC8F00FD40B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C36AA12A8DAC8F00FD40B4 /* Assets.xcassets */; };
 		94C36AA52A8DAC8F00FD40B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C36AA32A8DAC8F00FD40B4 /* LaunchScreen.storyboard */; };
+		94C36AAE2A8DB2E800FD40B4 /* yolov8s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		94C36AA12A8DAC8F00FD40B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94C36AA42A8DAC8F00FD40B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94C36AA62A8DAC8F00FD40B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8s.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		94C36A972A8DAC8E00FD40B4 /* yolov8-real-time */ = {
 			isa = PBXGroup;
 			children = (
+				94C36AAC2A8DB2AA00FD40B4 /* YOLOv8 */,
 				94C36A982A8DAC8E00FD40B4 /* AppDelegate.swift */,
 				94C36A9A2A8DAC8E00FD40B4 /* SceneDelegate.swift */,
 				94C36A9C2A8DAC8E00FD40B4 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				94C36AA62A8DAC8F00FD40B4 /* Info.plist */,
 			);
 			path = "yolov8-real-time";
+			sourceTree = "<group>";
+		};
+		94C36AAC2A8DB2AA00FD40B4 /* YOLOv8 */ = {
+			isa = PBXGroup;
+			children = (
+				94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */,
+			);
+			path = YOLOv8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C36AAE2A8DB2E800FD40B4 /* yolov8s.mlpackage in Sources */,
 				94C36A9D2A8DAC8E00FD40B4 /* ViewController.swift in Sources */,
 				94C36A992A8DAC8E00FD40B4 /* AppDelegate.swift in Sources */,
 				94C36A9B2A8DAC8E00FD40B4 /* SceneDelegate.swift in Sources */,
