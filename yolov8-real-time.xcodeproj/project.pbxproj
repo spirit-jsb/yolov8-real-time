@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		94C36A9D2A8DAC8E00FD40B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C36A9C2A8DAC8E00FD40B4 /* ViewController.swift */; };
 		94C36AA22A8DAC8F00FD40B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C36AA12A8DAC8F00FD40B4 /* Assets.xcassets */; };
-		94C36AAE2A8DB2E800FD40B4 /* yolov8s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */; };
 		94C68CF82A943F8F009F34A7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CF62A943F8F009F34A7 /* MainView.swift */; };
 		94C68CF92A943F8F009F34A7 /* YOLOv8RealTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CF72A943F8F009F34A7 /* YOLOv8RealTimeApp.swift */; };
 		94C68CFD2A94520B009F34A7 /* PredictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CFC2A94520B009F34A7 /* PredictView.swift */; };
 		94C68D002A9454F0009F34A7 /* EnvironmentValuesExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CFF2A9454F0009F34A7 /* EnvironmentValuesExtensions.swift */; };
 		94C68D052A9463EA009F34A7 /* VideoCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68D042A9463EA009F34A7 /* VideoCaptureManager.swift */; };
+		94C68D122A94886C009F34A7 /* yolov8s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 94C68D0E2A94886C009F34A7 /* yolov8s.mlpackage */; };
+		94C68D132A94886C009F34A7 /* yolov8s-seg.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 94C68D0F2A94886C009F34A7 /* yolov8s-seg.mlpackage */; };
+		94C68D142A94886C009F34A7 /* yolov8n-seg.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 94C68D102A94886C009F34A7 /* yolov8n-seg.mlpackage */; };
+		94C68D152A94886C009F34A7 /* yolov8n.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 94C68D112A94886C009F34A7 /* yolov8n.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +25,15 @@
 		94C36A9C2A8DAC8E00FD40B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94C36AA12A8DAC8F00FD40B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94C36AA62A8DAC8F00FD40B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8s.mlpackage; sourceTree = "<group>"; };
 		94C68CF62A943F8F009F34A7 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		94C68CF72A943F8F009F34A7 /* YOLOv8RealTimeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLOv8RealTimeApp.swift; sourceTree = "<group>"; };
 		94C68CFC2A94520B009F34A7 /* PredictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictView.swift; sourceTree = "<group>"; };
 		94C68CFF2A9454F0009F34A7 /* EnvironmentValuesExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValuesExtensions.swift; sourceTree = "<group>"; };
 		94C68D042A9463EA009F34A7 /* VideoCaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureManager.swift; sourceTree = "<group>"; };
+		94C68D0E2A94886C009F34A7 /* yolov8s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8s.mlpackage; sourceTree = "<group>"; };
+		94C68D0F2A94886C009F34A7 /* yolov8s-seg.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = "yolov8s-seg.mlpackage"; sourceTree = "<group>"; };
+		94C68D102A94886C009F34A7 /* yolov8n-seg.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = "yolov8n-seg.mlpackage"; sourceTree = "<group>"; };
+		94C68D112A94886C009F34A7 /* yolov8n.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8n.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +79,10 @@
 		94C36AAC2A8DB2AA00FD40B4 /* YOLOv8 */ = {
 			isa = PBXGroup;
 			children = (
-				94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */,
+				94C68D102A94886C009F34A7 /* yolov8n-seg.mlpackage */,
+				94C68D112A94886C009F34A7 /* yolov8n.mlpackage */,
+				94C68D0F2A94886C009F34A7 /* yolov8s-seg.mlpackage */,
+				94C68D0E2A94886C009F34A7 /* yolov8s.mlpackage */,
 			);
 			path = YOLOv8;
 			sourceTree = "<group>";
@@ -182,10 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94C36AAE2A8DB2E800FD40B4 /* yolov8s.mlpackage in Sources */,
+				94C68D122A94886C009F34A7 /* yolov8s.mlpackage in Sources */,
 				94C68D052A9463EA009F34A7 /* VideoCaptureManager.swift in Sources */,
 				94C68D002A9454F0009F34A7 /* EnvironmentValuesExtensions.swift in Sources */,
+				94C68D152A94886C009F34A7 /* yolov8n.mlpackage in Sources */,
 				94C68CFD2A94520B009F34A7 /* PredictView.swift in Sources */,
+				94C68D132A94886C009F34A7 /* yolov8s-seg.mlpackage in Sources */,
+				94C68D142A94886C009F34A7 /* yolov8n-seg.mlpackage in Sources */,
 				94C68CF92A943F8F009F34A7 /* YOLOv8RealTimeApp.swift in Sources */,
 				94C36A9D2A8DAC8E00FD40B4 /* ViewController.swift in Sources */,
 				94C68CF82A943F8F009F34A7 /* MainView.swift in Sources */,
