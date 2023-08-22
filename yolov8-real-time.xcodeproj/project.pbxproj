@@ -7,25 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94C36A992A8DAC8E00FD40B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C36A982A8DAC8E00FD40B4 /* AppDelegate.swift */; };
-		94C36A9B2A8DAC8E00FD40B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C36A9A2A8DAC8E00FD40B4 /* SceneDelegate.swift */; };
 		94C36A9D2A8DAC8E00FD40B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C36A9C2A8DAC8E00FD40B4 /* ViewController.swift */; };
-		94C36AA02A8DAC8E00FD40B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C36A9E2A8DAC8E00FD40B4 /* Main.storyboard */; };
 		94C36AA22A8DAC8F00FD40B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C36AA12A8DAC8F00FD40B4 /* Assets.xcassets */; };
-		94C36AA52A8DAC8F00FD40B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C36AA32A8DAC8F00FD40B4 /* LaunchScreen.storyboard */; };
 		94C36AAE2A8DB2E800FD40B4 /* yolov8s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */; };
+		94C68CF82A943F8F009F34A7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CF62A943F8F009F34A7 /* MainView.swift */; };
+		94C68CF92A943F8F009F34A7 /* YOLOv8RealTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CF72A943F8F009F34A7 /* YOLOv8RealTimeApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94C36A952A8DAC8E00FD40B4 /* yolov8-real-time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yolov8-real-time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94C36A982A8DAC8E00FD40B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94C36A9A2A8DAC8E00FD40B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		94C36A9C2A8DAC8E00FD40B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94C36A9F2A8DAC8E00FD40B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94C36AA12A8DAC8F00FD40B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		94C36AA42A8DAC8F00FD40B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94C36AA62A8DAC8F00FD40B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8s.mlpackage; sourceTree = "<group>"; };
+		94C68CF62A943F8F009F34A7 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		94C68CF72A943F8F009F34A7 /* YOLOv8RealTimeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLOv8RealTimeApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +54,9 @@
 		94C36A972A8DAC8E00FD40B4 /* yolov8-real-time */ = {
 			isa = PBXGroup;
 			children = (
-				94C36A982A8DAC8E00FD40B4 /* AppDelegate.swift */,
-				94C36A9A2A8DAC8E00FD40B4 /* SceneDelegate.swift */,
+				94C68CF72A943F8F009F34A7 /* YOLOv8RealTimeApp.swift */,
+				94C68CF52A943F8F009F34A7 /* Views */,
 				94C36A9C2A8DAC8E00FD40B4 /* ViewController.swift */,
-				94C36AA32A8DAC8F00FD40B4 /* LaunchScreen.storyboard */,
-				94C36A9E2A8DAC8E00FD40B4 /* Main.storyboard */,
 				94C68CD52A943A97009F34A7 /* Resources */,
 			);
 			path = "yolov8-real-time";
@@ -84,6 +78,14 @@
 				94C36AA62A8DAC8F00FD40B4 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		94C68CF52A943F8F009F34A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94C68CF62A943F8F009F34A7 /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94C36AA52A8DAC8F00FD40B4 /* LaunchScreen.storyboard in Resources */,
 				94C36AA22A8DAC8F00FD40B4 /* Assets.xcassets in Resources */,
-				94C36AA02A8DAC8E00FD40B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,32 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C36AAE2A8DB2E800FD40B4 /* yolov8s.mlpackage in Sources */,
+				94C68CF92A943F8F009F34A7 /* YOLOv8RealTimeApp.swift in Sources */,
 				94C36A9D2A8DAC8E00FD40B4 /* ViewController.swift in Sources */,
-				94C36A992A8DAC8E00FD40B4 /* AppDelegate.swift in Sources */,
-				94C36A9B2A8DAC8E00FD40B4 /* SceneDelegate.swift in Sources */,
+				94C68CF82A943F8F009F34A7 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		94C36A9E2A8DAC8E00FD40B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94C36A9F2A8DAC8E00FD40B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		94C36AA32A8DAC8F00FD40B4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94C36AA42A8DAC8F00FD40B4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		94C36AA72A8DAC8F00FD40B4 /* Debug */ = {
@@ -312,8 +293,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "yolov8-real-time/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,8 +319,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "yolov8-real-time/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
