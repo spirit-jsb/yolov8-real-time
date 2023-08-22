@@ -12,6 +12,8 @@
 		94C36AAE2A8DB2E800FD40B4 /* yolov8s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */; };
 		94C68CF82A943F8F009F34A7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CF62A943F8F009F34A7 /* MainView.swift */; };
 		94C68CF92A943F8F009F34A7 /* YOLOv8RealTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CF72A943F8F009F34A7 /* YOLOv8RealTimeApp.swift */; };
+		94C68CFD2A94520B009F34A7 /* PredictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CFC2A94520B009F34A7 /* PredictView.swift */; };
+		94C68D002A9454F0009F34A7 /* EnvironmentValuesExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C68CFF2A9454F0009F34A7 /* EnvironmentValuesExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		94C36AAD2A8DB2E800FD40B4 /* yolov8s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8s.mlpackage; sourceTree = "<group>"; };
 		94C68CF62A943F8F009F34A7 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		94C68CF72A943F8F009F34A7 /* YOLOv8RealTimeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLOv8RealTimeApp.swift; sourceTree = "<group>"; };
+		94C68CFC2A94520B009F34A7 /* PredictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictView.swift; sourceTree = "<group>"; };
+		94C68CFF2A9454F0009F34A7 /* EnvironmentValuesExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValuesExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 				94C68CF72A943F8F009F34A7 /* YOLOv8RealTimeApp.swift */,
 				94C68CF52A943F8F009F34A7 /* Views */,
 				94C36A9C2A8DAC8E00FD40B4 /* ViewController.swift */,
+				94C68CFE2A9454D1009F34A7 /* Extensions */,
 				94C68CD52A943A97009F34A7 /* Resources */,
 			);
 			path = "yolov8-real-time";
@@ -84,8 +89,17 @@
 			isa = PBXGroup;
 			children = (
 				94C68CF62A943F8F009F34A7 /* MainView.swift */,
+				94C68CFC2A94520B009F34A7 /* PredictView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		94C68CFE2A9454D1009F34A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94C68CFF2A9454F0009F34A7 /* EnvironmentValuesExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C36AAE2A8DB2E800FD40B4 /* yolov8s.mlpackage in Sources */,
+				94C68D002A9454F0009F34A7 /* EnvironmentValuesExtensions.swift in Sources */,
+				94C68CFD2A94520B009F34A7 /* PredictView.swift in Sources */,
 				94C68CF92A943F8F009F34A7 /* YOLOv8RealTimeApp.swift in Sources */,
 				94C36A9D2A8DAC8E00FD40B4 /* ViewController.swift in Sources */,
 				94C68CF82A943F8F009F34A7 /* MainView.swift in Sources */,
